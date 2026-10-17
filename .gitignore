@@ -1,0 +1,17 @@
+# Python and local environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.vscode/
+
+# Local MLflow runs and generated model artifacts
+mlruns/
+/artifacts/*
+!/artifacts/.gitkeep
+
+# Local-only files in this workspace
+/mlops-tp/
+/TP-MLOps_Chapitre-1_Entraînement-reproductible.pdf
+.env
